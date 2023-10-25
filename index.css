@@ -1,15 +1,39 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Courier Prime', monospace;
+    color: rgb(68, 68, 68);
 }
  
 .loading_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
 .loading_container img {
+ animation: fadeInAnimation ease 3s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ width: 40rem;
+}
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.loading_container p {
+font-size: 3rem;
+font-weight: 400;
+animation: fadeInAnimation ease 5s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
 }
