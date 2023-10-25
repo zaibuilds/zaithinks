@@ -31,9 +31,7 @@
 }
 
 .loading_container p {
-font-size: 3rem;
+visibility: hidden;
+font-size: 2rem;
 font-weight: 400;
-animation: fadeInAnimation ease 5s;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
 }
