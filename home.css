@@ -28,7 +28,7 @@ nav ul li a {
     list-style: none;
     padding: 1rem 2rem;
     color: rgb(70, 70, 70);
-    border-radius: 0.8rem;
+    border-radius: 0.2rem;
 
 }
 
@@ -44,8 +44,17 @@ nav a {
 
 nav ul li a:hover {
    padding: 1rem 2rem;
-   background-color: rgb(103, 103, 103);
-   border-radius: 0.8rem;
+   background-color: rgb(194, 143, 100);
+   border-radius: 0.2rem;
    color: rgb(255, 255, 255);
    transition: ease-in-out 250ms;
 }
+
+
+.active a{
+    padding: 1rem 2rem;
+    background-color: rgb(194, 143, 100);
+    border-radius: 0.2rem;
+    color: rgb(255, 255, 255);
+
+ }
