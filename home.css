@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+    list-style: none;
+    padding: 1rem 2rem;
+    color: rgb(70, 70, 70);
+    border-radius: 0.8rem;
+
+}
+
+
+nav img {
+    width: 12rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+nav ul li a:hover {
+   padding: 1rem 2rem;
+   background-color: rgb(103, 103, 103);
+   border-radius: 0.8rem;
+   color: rgb(255, 255, 255);
+   transition: ease-in-out 250ms;
+}

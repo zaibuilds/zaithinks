@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Courier Prime', monospace;
-    color: rgb(68, 68, 68);
+    color: rgb(70, 70, 70);
 }
  
 .loading_container {
@@ -30,8 +30,27 @@
     }
 }
 
+#enter_playground {
+    visibility: hidden;
+  
+}
+
 .loading_container p {
-visibility: hidden;
 font-size: 2rem;
 font-weight: 400;
+}
+
+.enter_btn {
+    display: flex;
+    justify-content: center;
+}
+
+#enter_button {
+    cursor: pointer;
+    padding: 1rem 2.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.2rem;
+    margin-top: 4rem;
+    background-color: rgb(254, 254, 241);
+    border: solid rgb(168, 162, 151) 2px;
 }
