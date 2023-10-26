@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(114, 109, 123);
 }
 
 nav {
@@ -21,13 +22,13 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    font-weight: 500;
 }
 
 nav ul li a {
     font-size: 1.25rem;
     list-style: none;
     padding: 1rem 2rem;
-    color: rgb(70, 70, 70);
     border-radius: 0.2rem;
 
 }
@@ -39,7 +40,6 @@ nav img {
 
 nav a {
     text-decoration: none;
-    color: rgb(70, 70, 70);
 }
 
 nav ul li a:hover {
