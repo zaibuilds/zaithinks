@@ -101,6 +101,7 @@ nav ul li a:hover {
 }
 
 .button_container1 button {
+    cursor: pointer;
     padding: 1rem 2rem;
     font-size: 1.125rem;
     border-radius: 2rem;
