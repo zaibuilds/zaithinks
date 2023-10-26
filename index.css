@@ -47,10 +47,23 @@ font-weight: 400;
 
 #enter_button {
     cursor: pointer;
-    padding: 1rem 2.25rem;
+    padding: 1rem 3.25rem;
     font-size: 1.25rem;
-    border-radius: 0.2rem;
+    border-radius: 2rem;
     margin-top: 4rem;
-    background-color: rgb(254, 254, 241);
-    border: solid rgb(168, 162, 151) 2px;
+    background-color: rgb(234, 167, 189);
+    border: solid rgb(203, 115, 143) 2px;
+    color: rgb(173, 94, 119) ;
+}
+
+#enter_button:hover {
+    cursor: pointer;
+    padding: 1rem 3.25rem;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    background-color: rgb(255, 191, 0);
+    border: solid rgb(255, 125, 11) 2px;
+    transition: ease-in-out 250ms;
+    color: rgb(189, 101, 25);
 }

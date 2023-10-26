@@ -81,13 +81,19 @@ nav ul li a:hover {
 }
 
 .hingeunwrapped_img img {
-    width: 80rem;
+    width: 75rem;
 }
 
 .hingeunwrapped_description {
     padding: 6.5rem 2rem 0rem 2rem;
     grid-column: span 1;
 }
+
+.hingeunwrapped_description h2 {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
 .hingeunwrapped_description p {
   font-size: 1.25rem;
@@ -109,4 +115,17 @@ nav ul li a:hover {
     border: 2px solid rgb(185, 148, 182);
     color:rgb(122, 100, 120);
     font-weight: 600;
+    transition: ease-in-out 250ms;
+}
+
+.button_container1 button:hover {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 2rem;
+    background-color: rgb(185, 148, 182);
+    border: 2px solid  rgb(224, 209, 222);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: ease-in-out 250ms;
 }
