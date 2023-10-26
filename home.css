@@ -58,3 +58,54 @@ nav ul li a:hover {
     color: rgb(255, 255, 255);
 
  }
+
+ .portfolio {
+    padding: 4rem;
+    margin: 2rem;
+ }
+
+ .portfolio h1 {
+    font-weight: 600;
+ }
+
+ .projects {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+.hingeunwrapped_img {
+    padding-top: 6rem;
+    grid-column: span 3;
+}
+
+.hingeunwrapped_img img {
+    width: 80rem;
+}
+
+.hingeunwrapped_description {
+    padding: 6.5rem 2rem 0rem 2rem;
+    grid-column: span 1;
+}
+
+.hingeunwrapped_description p {
+  font-size: 1.25rem;
+}
+
+.button_container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem ;
+}
+
+.button_container1 button {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 2rem;
+    background-color: rgb(246, 222, 218);
+    border: 2px solid rgb(185, 148, 182);
+    color:rgb(122, 100, 120);
+    font-weight: 600;
+}
